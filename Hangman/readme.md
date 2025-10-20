@@ -1,81 +1,125 @@
-Hangman: A Classic Word Guessing Game in Python
+# 🪓 HANGMAN 🎯  
+*A fun and interactive word guessing game built with Python.*
 
-This repository contains a Python implementation of the classic word-guessing game, Hangman. The game is built with a modular approach, using functions, loops, and conditional statements to create an engaging command-line experience. It features ASCII art to visualize the hangman's stages, making the game more interactive and fun.
+## 🧩 Overview  
+**HANGMAN** is a command-line based game created using Python.  
+In this project, the player has to guess a hidden word, letter by letter, before the ASCII hangman figure is fully drawn!  
 
-🌟 Features
+This project uses:
+- The **`english_words`** external library to select random English words.
+- Two **local Python modules**:
+  - **`input_word.py`** — fetches a random word from `english_words`.
+  - **`placeholder.py`** — checks the word length, provides a hint with the first letter, and warns if the word length exceeds 8 letters.
 
-Random Word Generation: Selects a random English word for each new game using the english_words library.
+The **`hangman.py`** file integrates all these components using **functions**, **loops**, and **conditional statements**, along with **ASCII visualization** of the hangman stages.  
+The **`time`** library is used to add delays for better user experience and visual appeal.
 
-Word Constraint & Hint: The game ensures the selected word is no longer than 8 letters and gives the player the first letter as a helpful hint.
+---
 
-Interactive Gameplay: Players guess letters one by one to uncover the secret word.
+## 🛠️ Features  
+✅ Random English word generation using `english_words`  
+✅ Word length validation and automatic hint generation  
+✅ ASCII art visualization of hangman stages  
+✅ Step-by-step game progress display with delay effects  
+✅ Modular structure using local and external libraries  
 
-Visual Feedback: Uses ASCII art to display the hangman at different stages, corresponding to the number of incorrect guesses.
+---
 
-Delayed Output: Leverages Python's time library to create dramatic pauses, enhancing the user experience.
+## 🚀 Getting Started  
 
-Modular Code: The logic is separated into different local modules for better organization and readability (input_word.py and placeholder.py).
-
-📂 Project Structure
-
-Hangman/
-├── hangman.py         # Main script to run the game
-├── input_word.py      # Module to fetch a random word
-└── placeholder.py     # Module to process the word and create the placeholder
-
-
-🚀 Getting Started
-
-Follow these instructions to get a copy of the project up and running on your local machine.
-
-Prerequisites
-
-Python 3.x installed on your system.
-
-Installation & Setup
-
-Clone the repository:
-
-git clone [https://github.com/mahi-8758/Python-DEv.git](https://github.com/mahi-8758/Python-DEv.git)
+### 1️⃣ Clone the Repository  
+```bash
+git clone https://github.com/mahi-8758/Python-DEv.git
 cd Python-DEv/Hangman
+````
 
+### 2️⃣ Create a Virtual Environment
 
-Create a virtual environment:
-It's recommended to create a virtual environment to manage project-specific dependencies.
+It’s recommended to use a virtual environment to manage dependencies.
 
-On Windows:
-
+```bash
 python -m venv venv
-venv\Scripts\activate
+```
 
+Activate the environment:
 
-On macOS/Linux:
+* **Windows:**
 
-python3 -m venv venv
-source venv/bin/activate
+  ```bash
+  venv\Scripts\activate
+  ```
+* **Mac/Linux:**
 
+  ```bash
+  source venv/bin/activate
+  ```
 
-Install the required library:
-This project requires the english_words library. Install it using pip:
+### 3️⃣ Install Required Library
 
+Use pip to install the external dependency:
+
+```bash
 pip install english_words
+```
 
+### 4️⃣ Run the Game
 
-🎮 How to Play
+Once everything is set up, start the game by running:
 
-Once you have completed the setup, run the main game file from your terminal:
-
+```bash
 python hangman.py
+```
+
+---
+
+## 📁 Project Structure
+
+```
+Hangman/
+│
+├── hangman.py           # Main game file
+├── input_word.py        # Local module for random word input
+├── placeholder.py       # Local module for word validation and hint
+└── README.md            # Project documentation
+```
+
+---
+
+## 🎮 How the Game Works
+
+1. The game randomly selects a word from the `english_words` library.
+2. The player guesses one letter at a time.
+3. The hangman figure updates with each wrong guess.
+4. The player wins if they guess all the letters before the figure is complete.
+
+---
+
+## 🧠 Concepts Used
+
+* **Functions & Modular Programming**
+* **Loops and Conditional Statements**
+* **ASCII Art Rendering**
+* **Time Delays for Visualization**
+* **External and Local Library Integration**
+
+---
+
+## 🌐 Connect with Me
+
+👨‍💻 **GitHub:** [mahi-8758](https://github.com/mahi-8758)
+💼 **LinkedIn:** [Mahi Kumar](https://www.linkedin.com/in/mahikumar1926/)
+
+---
+
+## 📜 License
+
+This project is open-source and available under the [MIT License](https://opensource.org/licenses/MIT).
+
+---
+
+### ⭐ If you like this project, don’t forget to **star** the repo!
+
+👉 [HANGMAN on GitHub](https://github.com/mahi-8758/Python-DEv/tree/main/Hangman)
 
 
-The game will start, and you can begin guessing letters to find the secret word!
 
-Connect with Me
-
-Feel free to reach out if you have any questions or suggestions!
-
-GitHub: [@mahi-8758](https://github.com/mahi-8758)
-
-LinkedIn: https://www.linkedin.com/in/mahikumar1926/
-
-Made with ❤️ by Mahi Kumar
