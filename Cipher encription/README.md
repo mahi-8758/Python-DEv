@@ -49,36 +49,55 @@ Enter shift value: 3
 🔹 Encrypted Text: khoor zruog
 🔹 Decrypted Text: hello world
 
-🧭 Project Setup Guide
+```
+
+## 🧭 Project Setup Guide
+
+
+
 
 Follow these steps to set up the project on your system 👇
 1️⃣ Clone the repository
-
+```bash
 git clone https://github.com/mahi-8758/caesar-cipher.git
 cd caesar-cipher
+```
+---
+
 
 2️⃣ Create a Virtual Environment
 
 For Windows:
-
+```bash
 python -m venv venv
+```
+```bash
 venv\Scripts\activate
-
+```
 For macOS/Linux:
-
+```bash
 python3 -m venv venv
+```
+```bash
 source venv/bin/activate
+```
+---
 
 3️⃣ Install Required Libraries
-
+```bash
 pip install colorama
 
+```
+
 (Note: string, sys, time, and threading are built-in and don’t need installation)
-🚀 Run the Program
+##🚀 Run the Program
 
 After activating the environment, run the script:
+```bash
+python encript.py
+```
 
-python caesar_cipher.py
+---
 
 💡 Tech Concepts Used
 
@@ -91,25 +110,19 @@ python caesar_cipher.py
     ASCII Art & Terminal Animation
 
     Colorama Visualization
+---
 
 🧑‍💻 Author
 
 Mahi Kumar
-🌐 GitHub Profile
+🌐 GitHub Profile - https://github.com/mahi-8758/
 
-💼 LinkedIn Profile
+💼 LinkedIn Profile - https://www.linkedin.com/in/mahikumar1926/
+---
+
 🌟 Show Your Support
 
 If you like this project, don’t forget to ⭐ star the repo and follow me for more awesome beginner-friendly Python projects!
 
-
-
-🌀 Fun Animation (Optional)
-
-Add this below your title in the README for a cool typing animation 👇
-
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=26&pause=1000&color=00C2FF&width=650&lines=Encrypt.+Decrypt.+Repeat.;Simple+Python+Implementation.;Made+by+Mahi+Kumar+💻" alt="Typing SVG" />
-</p>
 
 ✨ “Even simple ciphers can teach complex logic.” ✨
