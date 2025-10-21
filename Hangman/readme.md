@@ -71,7 +71,7 @@ python hangman.py
 ```
 
 ---
-
+---
 ## 📁 Project Structure
 
 ```
@@ -84,7 +84,7 @@ Hangman/
 ```
 
 ---
-
+---
 ## 🎮 How the Game Works
 
 1. The game randomly selects a word from the `english_words` library.
