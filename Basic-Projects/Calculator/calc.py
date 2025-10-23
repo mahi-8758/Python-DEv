@@ -14,36 +14,40 @@ def modulus(a,b):
     return a % b
 def calculator():
     calculator = {
-    '+': sum,
-    '-': subtract,
-    '*': multiply,
-    '/': divide,
-    '^': power,
-    '%': modulus
+        '+': sum,
+        '-': subtract,
+        '*': multiply,
+        '/': divide,
+        '^': power,
+        '%': modulus
     }
-    a = float(input("Enter first number: "))
-    b = float(input("Enter second number: "))
+    a_val = input("Enter first number: ")
+    b_val = input("Enter second number: ")
+    a = float(a_val)
+    b = float(b_val)
     operation = input("Enter operation (+, -, *, /, ^, %): ")
-    if operation in calculator:
-        result = calculator[operation](a,b)
-        print(f"{a} {operation} {b} = {result}")
-    reuse = input("Wanted to reuse the answer?  Type 'yes' or 'no'").lower()
-    if reuse == 'yes':
-        a = result
-        b = float(input("Enter next number: "))
-        operation = input("Enter operation (+, -, *, /, ^, %): ")
+    statement = True
+    
+    while statement:
         if operation in calculator:
             result = calculator[operation](a,b)
             print(f"{a} {operation} {b} = {result}")
-    elif reuse == 'no':
-        return
+            reuse = input("Wanted to reuse the answer? Type 'yes' or 'no': ").lower()
 
+            if reuse == 'yes':
+                a = result
+                b_val = input("Enter next number: ")
+                b = float(b_val)
+                operation = input("Enter operation (+, -, *, /, ^, %): ")
+                continue
+            elif reuse == 'no':
+                statement = False
 
 print("Welcome to the Calculator!")
 calcontinue = 'yes'
-while calcontinue.lower() == 'yes':
+while calcontinue == 'yes':
     calculator()
     calcontinue = input("Want to continue? (yes/no)") 
-    if calcontinue is 'no':
-        print("Thank you for using the calculator. Goodbye!")   
-    
+    if calcontinue == 'no':
+        print("Thank you for using the calculator. Goodbye!")
+
