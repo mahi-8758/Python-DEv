@@ -115,9 +115,12 @@ python encript.py
 🧑‍💻 Author
 
 Mahi Kumar
-🌐 GitHub Profile - https://github.com/mahi-8758/
+## 🌐 Connect with Me
 
-💼 LinkedIn Profile - https://www.linkedin.com/in/mahikumar1926/
+👨‍💻 **GitHub:** [mahi-8758](https://github.com/mahi-8758)
+💼 **LinkedIn:** [Mahi Kumar](https://www.linkedin.com/in/mahikumar1926/)
+
+---
 ---
 
 🌟 Show Your Support
