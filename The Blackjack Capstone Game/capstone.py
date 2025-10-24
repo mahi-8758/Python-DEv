@@ -67,7 +67,7 @@ while play_game:
         print("\n" + Fore.CYAN + "Dealer's turn...") # Added header and spacing
         time.sleep(1) # Added pause
 
-        if sum_dealer < 17:
+        if sum_dealer < 17 and sum_dealer <= 21:
             card_dealer.append(random.choice([11,2,3,4,5,6,7,8,9,10,10,10,10]))
             sum_dealer = sum(card_dealer)
             print(Fore.RED + "Dealer's score is less than 17, so dealer gets another card.") # Added color
