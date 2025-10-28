@@ -89,9 +89,9 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## 👤 Contact
 
-Mahi Kumar - [@mahikumar1926](https://www.linkedin.com/in/mahikumar1926/)
+Mahi Kumar - [Connect with me](https://www.linkedin.com/in/mahikumar1926/)
 
-Project Link: [https://github.com/mahi-8758/coffee-machine](https://github.com/mahi-8758/coffee-machine)
+Project Link: [Github](https://github.com/mahi-8758/Python-DEv/tree/main/The-Coffee-Machine)
 
 ---
 Made with ❤️ by Mahi Kumar
