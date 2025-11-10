@@ -3,7 +3,7 @@ import api
 
 api_keyai = api.API_KEY
 
-genai.configure(api_key=api_keyai)
+genai.configure(api_key=api_keyai) # get your api key from "https://aistudio.google.com/app/api-keys" and set it here
 
 model = genai.GenerativeModel("gemini-2.0-flash")
 chat = model.start_chat()
