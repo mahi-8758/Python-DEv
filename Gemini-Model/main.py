@@ -8,7 +8,7 @@ genai.configure(api_key=api_keyai)
 model = genai.GenerativeModel("gemini-2.0-flash")
 chat = model.start_chat()
 
-print("=== QUIZ AI - GOOGLE GEMINI 2.0 ===")
+print("=== TERMINAL BASED - GOOGLE GEMINI 2.0 ===")
 print("Type 'exit' to quit\n")
 
 while True:
