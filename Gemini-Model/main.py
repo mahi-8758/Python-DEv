@@ -5,10 +5,10 @@ api_keyai = api.API_KEY
 
 genai.configure(api_key=api_keyai)
 
-model = genai.GenerativeModel("gemini-2.0-flash")
+model = genai.GenerativeModel("gemini-2.5-flash")
 chat = model.start_chat()
 
-print("=== TERMINAL BASED - GOOGLE GEMINI 2.0 ===")
+print("=== TERMINAL BASED - GOOGLE GEMINI 2.5 FLASH ===")
 print("Type 'exit' to quit\n")
 
 while True:
