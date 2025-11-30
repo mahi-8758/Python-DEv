@@ -26,8 +26,8 @@ class SpeedTestGUI:
     def __init__(self, root):
         self.root = root
         self.root.title("Internet Speed Test Monitor")
-        self.root.geometry("1000x700")
-        self.root.configure(bg='#2c3e50')
+        self.root.geometry("1920x1080")
+        self.root.configure(bg="#27394c")
         
         self.is_testing = False
         self.test_thread = None
@@ -38,7 +38,7 @@ class SpeedTestGUI:
         header.pack(fill='x')
         
         title = tk.Label(header, text="Internet Speed Test Monitor", 
-                        font=('Arial', 20, 'bold'), bg='#34495e', fg='white')
+                        font=('Times New Roman', 20, 'bold'), bg='#34495e', fg='white')
         title.pack()
         
         # Control Frame - Row 1
@@ -57,34 +57,29 @@ class SpeedTestGUI:
                                   bg='#e74c3c', fg='white', 
                                   font=('Arial', 12, 'bold'),
                                   width=15, height=2, state='disabled')
-        self.stop_btn.pack(side='left', padx=10)
+        self.stop_btn.pack(side='right', padx=10)
         
         self.reset_btn = tk.Button(control_frame1, text="Reset", 
                                    command=self.reset_testing, 
                                    bg='#e67e22', fg='white', 
                                    font=('Arial', 12, 'bold'),
                                    width=15, height=2)
-        self.reset_btn.pack(side='left', padx=10)
-        
-        # Control Frame - Row 2
-        control_frame2 = tk.Frame(root, bg='#2c3e50', pady=5)
-        control_frame2.pack(fill='x')
-        
-        self.export_btn = tk.Button(control_frame2, text="Export", 
+        self.reset_btn.pack(side='right', padx=10)
+
+        self.export_btn = tk.Button(control_frame1, text="Export", 
                                     command=self.export_pdf, 
                                     bg='#3498db', fg='white', 
                                     font=('Arial', 12, 'bold'),
                                     width=15, height=2, state='disabled')
         self.export_btn.pack(side='left', padx=10)
         
-        self.show_pdf_btn = tk.Button(control_frame2, text="Show", 
+        self.show_pdf_btn = tk.Button(control_frame1, text="Show", 
                                       command=self.show_pdf, 
                                       bg='#9b59b6', fg='white', 
                                       font=('Arial', 12, 'bold'),
                                       width=15, height=2, state='disabled')
         self.show_pdf_btn.pack(side='left', padx=10)
         
-        # Stats Frame
         stats_frame = tk.LabelFrame(root, text="Current Statistics", 
                                    bg='#34495e', fg='white', 
                                    font=('Arial', 12, 'bold'), 
@@ -283,7 +278,7 @@ class SpeedTestGUI:
                     self.root.after(0, self.stop_testing)
                     break
                 
-                time.sleep(20)
+                time.sleep(10)
                 
             except Exception as e:
                 consecutive_errors += 1
@@ -296,7 +291,7 @@ class SpeedTestGUI:
                     self.root.after(0, self.stop_testing)
                     break
                 
-                time.sleep(20)
+                time.sleep(10)
         
         self.root.after(0, self.start_btn.config, {'state': 'normal'})
         
