@@ -75,7 +75,7 @@
 
 <div align="center">
 
-![Main Interface](./screenshots/main_interface.png)
+![Main Interface](https://raw.githubusercontent.com/mahi-8758/Python-DEv/main/Speedtest/screenshots/maininterface.png)
 
 *Real-time monitoring dashboard with live statistics and intuitive control buttons*
 
@@ -87,7 +87,7 @@
 
 <div align="center">
 
-![PDF Report](./screenshots/pdf_output.png)
+![PDF Report](https://raw.githubusercontent.com/mahi-8758/Python-DEv/main/Speedtest/screenshots/pdfoutput.png)
 
 *Comprehensive PDF report featuring detailed graphs and statistical analysis*
 
@@ -146,8 +146,8 @@ graph LR
 ### Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/internet-speed-test-monitor.git
-cd internet-speed-test-monitor
+git clone https://github.com/mahi-8758/Python-DEv.git
+cd Python-DEv/Speedtest
 ```
 
 ### Step 2: Install Dependencies
@@ -360,7 +360,7 @@ sudo apt-get install python3-tk
 ## 📁 Project Structure
 
 ```
-internet-speed-test-monitor/
+Speedtest/
 │
 ├── main.py                 # Main application file
 ├── README.md              # Project documentation
@@ -371,8 +371,8 @@ internet-speed-test-monitor/
 │   └── speedtest_results_YYYYMMDD_HHMMSS.pdf
 │
 └── screenshots/          # Application screenshots
-    ├── main_interface.png
-    └── pdf_output.png
+    ├── maininterface.png
+    └── pdfoutput.png
 ```
 
 ---
@@ -418,11 +418,25 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ```
 MIT License
 
-Copyright (c) 2025 Your Name
+Copyright (c) 2025 Mahi Kumar
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction...
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 ```
 
 ---
@@ -431,11 +445,15 @@ in the Software without restriction...
 
 <div align="center">
 
-**Your Name**
+**Mahi Kumar**
 
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/yourusername)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/yourprofile)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your.email@example.com)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mahi-8758)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mahikumar1926/)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:kumarmahi8758@gmail.com)
+
+### 💬 Connect with me
+
+Feel free to reach out for collaborations, questions, or just to say hi!
 
 </div>
 
@@ -447,18 +465,6 @@ in the Software without restriction...
 - **matplotlib** - For powerful visualization capabilities
 - **Python Community** - For continuous support and inspiration
 - **Contributors** - Thank you to all who have contributed!
-
----
-
-## 📊 Project Stats
-
-<div align="center">
-
-![GitHub stars](https://img.shields.io/github/stars/yourusername/internet-speed-test-monitor?style=social)
-![GitHub forks](https://img.shields.io/github/forks/yourusername/internet-speed-test-monitor?style=social)
-![GitHub watchers](https://img.shields.io/github/watchers/yourusername/internet-speed-test-monitor?style=social)
-
-</div>
 
 ---
 
