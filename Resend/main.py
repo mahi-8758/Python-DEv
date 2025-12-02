@@ -4,12 +4,12 @@ import api
 # --- CONFIGURATION ---
 # PASTE YOUR API KEY HERE DIRECTLY
 resend.api_key = api.api_key
-FROM_EMAIL = "supportfrommahi@sending.studio" # Or your verified sender
-# ---------------------
+FROM_EMAIL = "supportmahi@sending.studio" # Or your verified sender
+
 
 print("--- Resend Email Sender ---")
 
-# 1. Get inputs from the user
+
 recipient_email = input("Enter recipient email: ")
 email_subject = input("Enter email subject: ")
 email_html = input("Enter message (HTML is okay): ")
