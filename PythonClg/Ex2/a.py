@@ -1,5 +1,4 @@
 import math
-
 print("DISTANCE BETWEEN TWO POINTS")
 x1, y1 = float(input("Enter x1: ")), float(input("Enter y1: "))
 x2, y2 = float(input("Enter x2: ")), float(input("Enter y2: "))
