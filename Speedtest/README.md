@@ -17,7 +17,7 @@
 
 ## 🎯 Overview
 
-**Internet Speed Test Monitor** is a powerful, user-friendly desktop application that continuously monitors your internet connection speed. Built with Python and Tkinter, it provides real-time statistics, visual graphs, and exportable PDF reports to help you track and analyze your network performance over time.
+**-Internet Speed Test Monitor-** is a powerful, user-friendly desktop application that continuously monitors your internet connection speed. Built with Python and Tkinter, it provides real-time statistics, visual graphs, and exportable PDF reports to help you track and analyze your network performance over time.
 
 <div align="center">
 
