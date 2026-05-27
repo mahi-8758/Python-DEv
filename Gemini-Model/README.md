@@ -1,4 +1,4 @@
-# Gemini Chatbot
+# Gemini Chatbot - AI 
 
 A terminal-based conversational AI chatbot powered by Google's Gemini 2.0 Flash model.
 
